@@ -5,7 +5,7 @@ import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
 
-public class P02_PlayWrightTest {
+public class P02_BasicNavigations {
     public static void main(String[] args)  {
         Playwright playwright = Playwright.create();
         BrowserType chromium = playwright.chromium();
