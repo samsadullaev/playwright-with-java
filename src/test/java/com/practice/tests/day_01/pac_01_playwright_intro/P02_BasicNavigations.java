@@ -18,6 +18,7 @@ public class P02_BasicNavigations {
         page.goBack();
         page.waitForTimeout(2000);
         //hello
+        //change
         page.goForward();
         page.waitForTimeout(2000);
         page.reload();
